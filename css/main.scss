@@ -1,0 +1,77 @@
+/* index.html*/
+/*sidebar-fixed*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    //color:#ffffff;
+}
+.sidebar-fixed{
+    height:100%;
+    //color:#ffffff;
+    width: 160px;
+    background-color: #000000;
+    position:fixed;
+    right:0;
+    top:0;
+    font-family: 'Open Sans', sans-serif;
+    //overflow-x:hidden;
+    h4{
+        padding: 35px 20px 20px 20px;
+    }
+    a{
+        color:#ffffff;
+        padding:15px 20px 20px 20px;
+        text-decoration: none;
+        display: block;
+    }
+}
+.main{
+    margin: auto;
+    margin-right:160px;
+}
+.main-intro{
+    background-color: #33AFA9;
+    height: 400px;
+    width: 100%;
+    display: inline-block;
+    //padding: 10px 10px;
+    
+    .image{
+        //padding: 0px 100px 0px 1000px;
+        position:relative;
+        img{
+            border-radius: 500px;
+            width: 333px;
+            right: 250px;
+            top:30px;
+
+            //padding: 30px 0px 30px 0px;
+        }
+    }
+    .intro{
+        //padding: 10px 10px 10px 10px
+        margin: auto;
+        position:absolute;
+        top:100px;
+        left:50px;
+        font-size: 35px;
+        color:#ffffff;
+    }
+    
+}
+.main-resume{
+    text-align:center;
+    h2{
+        padding:10px 
+    }
+    a{
+        text-decoration: none;
+        border: 3px solid;
+        color:#ffffff;
+        background-color: #000000;
+    }
+}

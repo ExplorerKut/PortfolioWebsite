@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{ 
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-style: 'Open sans',sans-serif;
+    
+}
+body{
+    background-color:#FFFFFF;
+}
+.about-container{
+    background-color:#C1C8E4;
+    padding:5px;
+    margin: 5px;
+    border-radius:0.8em;
+    font-weight:300 ;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    
+    align-items: center ;
+}
+
+.item{
+    color:#000000;
+    /*font-size: 35px;*/
+    padding:10px;
+    margin:10px;
+
+}
+.about-photo{
+    border-radius: 50%;
+    width:11em;
+}
+.about-intro-name{
+    align-items:center;
+
+}
+.about-intro-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.about-intro-contact ul{
+    
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+    
+}
+.about-intro-contact li{
+    margin: 5px;
+    padding:5px;
+}
+.about-intro-contact img{
+    width:1.5em;
+}
+.about-intro-name h1{
+    /*font-size: 1em;*/
+    font-size:1.5em;
+    
+    text-align:center;
+}
+.about-intro-name p{
+    /*font-size: 1em;*/
+    padding: 5px;
+    font-size:1.2em;
+    text-align: justify;
+}
+.skills-container{
+    background-color: #CACACA;
+    color:black;
+    display: flex;
+    margin:5px;
+    padding:5px;
+    border-radius: 0.8em;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.skills-headername{
+    font-size:1.4em;
+}
+.skills-container ul{
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+.skills-info{
+    
+}
+.skills-info li{
+    
+    font-size: 1.2em;
+    /*font-size: 2em; */
+}
+.skills-info h3{
+    /* text-align:left; */
+    margin:5px;
+    font-size:1.5em;
+}
