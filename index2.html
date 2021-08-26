@@ -7,21 +7,21 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="site-wrapper">
+    <!-- <div class="site-wrapper"> -->
     <header class="portfolio-header">
-        <div class="header-menu">
+        <section class="header-menu">
             <a href="#">none</a>
-        </div>
-        <div class="header-heading">
+        </section>
+        <section class="header-heading">
             <h2>Kutbuddin</h2>
-        </div>
+        </section>
     </header>
     
     <main class="content">
-        <div class="about-container flex">
+    <section class="about-container flex">
         
         <div class="about-intro-photo item">
-            <img src="image/me.jfif" class="about-photo">
+            <img src="image/image2.jpg" class="about-photo">
         </div>
         <div class="about-intro-name">
             <h1 class="about-intro-name-h1">Kutbuddin Ambawala</h1>
@@ -29,13 +29,13 @@
         </div>
         <div class="about-intro-contact">
             <ul>
-                <li><a href="mailto:kutbuddin.ambawala@gmail.com"><img src="image/email.png"></a></li>
-                <li><a href="#"><img src="image/github.png"></a></li>
-                <li><a href="#"><img src="image/linkedin.png"></a></li>
+                <li><a href="mailto:kutbuddin.ambawala@gmail.com"><img src="image/email_1.png"></a></li>
+                <li><a href="#"><img src="image/github_1.png"></a></li>
+                <li><a href="#"><img src="image/linkedin_1.png"></a></li>
             </ul>
         </div>
         <div class="about-contact">
-            <a href="#" class="about-contact">Contact</a>
+            <a href="#contact" class="about-contact">Contact</a>
         </div>
         <!-- <div class="about-scroll-down">
             <svg class="about-scroll-down-arrows">
@@ -45,85 +45,128 @@
             </svg>
         </div> -->
         
-    </div>
-    <div class="about-me flex">
+    </section>
+    <section class="about-me flex">
         <div class="about-me-heading">
             <h1>About Me</h1>
         </div>
-        <div class="about-me-image">
-            <img src="image/image2.jpg">
-        </div>
-        <div class="about-me-details">
+        
+        <div class="about-me-details" contact="about">
             <div class="about-me-info">
-                I am an individual looking for opportunities in the field of big data, devops and cloud computing.
+                I am an individual looking for opportunities in the field of Big Data, DevOps and Cloud Computing.
+                Currently in my final year of Bachelors in Computer Engineering.
             </div>
-        </div>
-        
-    </div>
-    </main>
-    <div class="skills-container">
-        <div class="skills-headername ">
-            <h1 class="skills-headername">Skills</h1>
-        </div>
-        
-        <div class="skills-info">
-            <!-- <div class="skills-info-languages"> -->
-            <h3>Languages</h3>
-            <ul class="skills-languages">
-                <li>html</li>
-                <li>css</li>
-                <li>java</li>
-                <li>python</li>
-                <li>javascript</li>
-
-            </ul>
-            <!-- </div> -->
-            <!-- <div class="skills-info-tools"> -->
-            <h3>Tools</h3>
-            <ul class="skills-tools">
-                <li>Netbeans</li>
-                <li>Jupyter Notebook</li>
-                <li>Pycharm</li>
-            </ul>
-            <!-- </div>
-            <div class="skills-info-cloud"> -->
-                <h3>Cloud</h3>
-            <ul class="skills-cloud">
-                <li>gcp*</li>
-                <li>aws*</li>
-            </ul>
-            <ul>
-                <li>html</li>
-                <li>css</li>
-                <li>java</li>
-                <li>python</li>
-                <li>javascript</li>
-                <li>gcp</li>
-                <li>aws</li>
-                <li>Data Analysis</li>
-                <li>Machine learning</li>
+            <div class="about-resume">
+                <a href="resume/Resume2021.pdf" class="about-resume-btn">Download Resume</a>
+            </div>
+            <div class="skills-container flex">
+<!--                 
+                <h1 class="skills-headername-h1">Skills</h1> -->
                 
-            </ul>
-            <div class="skills-container-image">
-                <div class="skills-img">
-                    <img src="image/java.png">
-                </div>
-                <div class="skills-img">
-                    <img src="image/css.png">
-                </div>
-                <div class="skills-img">
-                    <img src="image/html.png">
-                </div>
-                <div class="skills-img">
-                    <img src="image/python.png">
-                </div>
-            <!-- </div> -->
+                <section class="skills-info">
+                    <p>Few of the languages that I have worked with and working on:</p>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>Javascript</li>
+                        
+                    </ul>
+                    <p>
+                        MVC Framework I use for Backend:
+                    </p>
+                    <ul>
+                        <li>Django</li>
+                    </ul>
+                    <p>
+                    Cloud platforms I am familiar with:
+                    </p>
+                    <ul>
+                        <li>AWS</li>
+                        <li>GCP</li>
+                    </ul>
+                    <p>
+                    Getting familiar with Big Data tools like:
+                    <ul>
+                        <li>Apache Hadoop</li>
+                        <li>HDFS</li>
+                        <li>YARN</li>
+                    </ul>
+                    </p>
+                </section>
+                <!-- <div class="skills-info">
+                    
+                    <h3>Languages</h3>
+                    
+                    <ul class="skills-languages">
+                        <table>
+                            <tr>
+                                <td>html</td>
+                                <td>html</td>
+                                <td>html</td>
+                            </tr>
+                            <tr>
+                                <td>html</td>
+                                <td>html</td>
+                                
+                            </tr>
+                        </table>
+        
+                    </ul>
+                    
+                    <h3>Tools</h3>
+                    <ul class="skills-tools">
+                        <li>Netbeans</li>
+                        <li>Jupyter Notebook</li>
+                        <li>Pycharm</li>
+                    </ul>
+                   
+                        <h3>Cloud</h3>
+                    <ul class="skills-cloud">
+                        <li>gcp*</li>
+                        <li>aws*</li>
+                    </ul>
+                    <ul>
+                        <li>html</li>
+                        <li>css</li>
+                        <li>java</li>
+                        <li>python</li>
+                        <li>javascript</li>
+                        <li>gcp</li>
+                        <li>aws</li>
+                        <li>Data Analysis</li>
+                        <li>Machine learning</li>
+                        
+                    </ul>
+                    
+                </div> -->
+                
+               
             </div>
         </div>
         
-       <!-- <a href="#home">Go up</a>-->
-    </div>
-    </div>
+    </section>
+    <section class="contact-me flex" id="contact">
+        <div class="contact-me-heading container-heading">
+            <h1>Contact Me</h1>
+        </div>
+       
+        <div class="contact-me-details">
+            <p>You can Get In Touch with me for any queries !</p>
+            <div class="contact-me-details"><a class="contact-me-touch" href="mailto:kutbuddin.ambawala@gmail.com" target="_blank">Say Hello!</a></div>
+            
+        </div>
+        
+    </section>
+    </main>
+    <footer>
+        <div class="footer-content flex">
+            Developed by Kutbuddin Ambawala
+        </div>
+    </footer>
+    
+    <!-- </div> -->
     
 </body>
 </html>
