@@ -4,49 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Kutbuddin's Portfolio</title>
+    <script src="javascript/main.js"></script>
 </head>
 <body>
-    <!-- <div class="site-wrapper"> -->
-    <header class="portfolio-header">
-        <section class="header-menu">
-            <a href="#">none</a>
-        </section>
-        <section class="header-heading">
-            <h2>Kutbuddin</h2>
-        </section>
+    <header class="header-new">
+        <h2>Kutbuddin<span>.</span></h2>
+        <div class="header-new-menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+        </div>
+        <div class="mobile-nav-res">
+            <a  href="resume/Resume2021.pdf">Resume</a>
+        </div>
     </header>
+    <header class="portfolio-header">
+        <div class="header-menu">
+            
+            <button class="hamburger" title="menu">
+                <div class="bar"></div>
+                
+            </button>
+            <h2>Kutbuddin<span>.</span></h2>
+        </div>
+
+    </header>
+    <nav class="mobile-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+        <a class="mobile-nav-resume" href="resume/Resume2021.pdf">Resume</a>
+    </nav>
     
     <main class="content">
-    <section class="about-container flex">
+    <section class="about-container flex" id="home">
         
         <div class="about-intro-photo item">
-            <img src="image/image2.jpg" class="about-photo">
+            <img src="image/image2.jpg" class="about-photo" alt="My photo">
+            
         </div>
         <div class="about-intro-name">
             <h1 class="about-intro-name-h1">Kutbuddin Ambawala</h1>
-            <!-- <p>Browsing through the limitless potential of technologies, to find my passion.</p> -->
         </div>
         <div class="about-intro-contact">
             <ul>
-                <li><a href="mailto:kutbuddin.ambawala@gmail.com"><img src="image/email_1.png"></a></li>
-                <li><a href="#"><img src="image/github_1.png"></a></li>
-                <li><a href="#"><img src="image/linkedin_1.png"></a></li>
+                <li><a href="mailto:kutbuddin.ambawala@gmail.com"><img src="image/email_1.png" alt="email"></a></li>
+                <li><a href="#"><img src="image/github_1.png" alt="github repository"></a></li>
+                <li><a href="#"><img src="image/linkedin_1.png" alt="linkedin profile"></a></li>
             </ul>
         </div>
         <div class="about-contact">
             <a href="#contact" class="about-contact">Contact</a>
         </div>
-        <!-- <div class="about-scroll-down">
-            <svg class="about-scroll-down-arrows">
-                <path class="a1" d="M0 0 L30 32 L60 0"></path>
-                <path class="a2" d="M0 20 L30 52 L60 20"></path>
-                <path class="a3" d="M0 40 L30 72 L60 40"></path>
-            </svg>
-        </div> -->
-        
     </section>
-    <section class="about-me flex">
+    <section class="about-me flex" id="about">
         <div class="about-me-heading">
             <h1>About Me</h1>
         </div>
@@ -60,32 +74,63 @@
                 <a href="resume/Resume2021.pdf" class="about-resume-btn">Download Resume</a>
             </div>
             <div class="skills-container flex">
-<!--                 
-                <h1 class="skills-headername-h1">Skills</h1> -->
-                
                 <section class="skills-info">
                     <p>Few of the languages that I have worked with and working on:</p>
-                    <ul>
-                        <li>Java</li>
-                        <li>Python</li>
-                        <li>Html</li>
-                        <li>Css</li>
-                        <li>Javascript</li>
+                    <div class="skills-me">
+                        <figure><img src="image/java.png" alt="">
+                        <figcaption>
+                            Java
+                        </figcaption>
+                        </figure>
+                        <figure><img src="image/python.png" alt="">
+                        <figcaption>
+                            Python
+                        </figcaption>
+                        </figure>
+                        <figure><img src="image/html-5.png" alt="">
+                            <figcaption>
+                                Html
+                            </figcaption>
+                        </figure>
+                        <figure><img src="image/icons8-javascript-96.png" alt="">
+                            <figcaption>
+                                Javascript
+                            </figcaption>
+                        </figure>
+                        <figure><img src="image/css.png" alt="">
+                            <figcaption>
+                                Css
+                            </figcaption>
+                        </figure>
                         
-                    </ul>
+                        </div>
                     <p>
                         MVC Framework I use for Backend:
                     </p>
-                    <ul>
-                        <li>Django</li>
-                    </ul>
+                    <div class="skills-me">
+                        <figure><img src="image/icons8-django-96.png" alt="">
+                        <figcaption>
+                            Django
+                        </figcaption>
+                        </figure>
+                    </div>
                     <p>
                     Cloud platforms I am familiar with:
                     </p>
-                    <ul>
-                        <li>AWS</li>
-                        <li>GCP</li>
-                    </ul>
+                    <div class="skills-me">
+                        <figure><img src="image/icons8-amazon-web-services-96.png" alt="">
+                        <figcaption>
+                            aws
+                        </figcaption>
+                        </figure>
+                        <figure><img src="image/google-cloud.png" alt="">
+                        <figcaption>
+                            gcp
+                        </figcaption>
+                        </figure>
+    
+
+                    </div>
                     <p>
                     Getting familiar with Big Data tools like:
                     <ul>
@@ -95,60 +140,12 @@
                     </ul>
                     </p>
                 </section>
-                <!-- <div class="skills-info">
-                    
-                    <h3>Languages</h3>
-                    
-                    <ul class="skills-languages">
-                        <table>
-                            <tr>
-                                <td>html</td>
-                                <td>html</td>
-                                <td>html</td>
-                            </tr>
-                            <tr>
-                                <td>html</td>
-                                <td>html</td>
-                                
-                            </tr>
-                        </table>
-        
-                    </ul>
-                    
-                    <h3>Tools</h3>
-                    <ul class="skills-tools">
-                        <li>Netbeans</li>
-                        <li>Jupyter Notebook</li>
-                        <li>Pycharm</li>
-                    </ul>
-                   
-                        <h3>Cloud</h3>
-                    <ul class="skills-cloud">
-                        <li>gcp*</li>
-                        <li>aws*</li>
-                    </ul>
-                    <ul>
-                        <li>html</li>
-                        <li>css</li>
-                        <li>java</li>
-                        <li>python</li>
-                        <li>javascript</li>
-                        <li>gcp</li>
-                        <li>aws</li>
-                        <li>Data Analysis</li>
-                        <li>Machine learning</li>
-                        
-                    </ul>
-                    
-                </div> -->
-                
-               
             </div>
         </div>
         
     </section>
     <section class="contact-me flex" id="contact">
-        <div class="contact-me-heading container-heading">
+        <div class="contact-me-heading">
             <h1>Contact Me</h1>
         </div>
        
@@ -166,7 +163,7 @@
         </div>
     </footer>
     
-    <!-- </div> -->
     
 </body>
+
 </html>
