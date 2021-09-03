@@ -1,5 +1,1 @@
-Currently Working on deploying my portfolio website which is a work in progress.
-<<<<<<< HEAD
-=======
-
->>>>>>> 4a5f62f2450a9cedc98270fe223063b38db0a1c9
+Learnt Flex box and responsive website design while developing my Portfolio website, looking forward to adding all my project description on the website itself.
